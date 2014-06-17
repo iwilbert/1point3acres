@@ -34,7 +34,7 @@ public class CC1_4 {
 		line[3] = ' ';
 		line[4] = 'C';
 		System.out.println(line);
-		new Problem4().replace(line);
+		new CC1_4().replace(line);
 		System.out.println(line);
 	}
 	

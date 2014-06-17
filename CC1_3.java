@@ -1,5 +1,5 @@
 
-public class Problem2 {
+public class CC1_3 {
 
 	public boolean isPerm(String str1, String str2) {
 		// edge cases: null, len not equal, len = 0
@@ -28,7 +28,7 @@ public class Problem2 {
 	public static void main(String[] args) {
 		String str1 = "hello";
 		String str2 = "elhlo";
-		System.out.print(new Problem2().isPerm(str1, str2));
+		System.out.print(new CC1_3().isPerm(str1, str2));
 	}
 	
 }
