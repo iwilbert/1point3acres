@@ -5,8 +5,8 @@ public class CC1_6 {
 		if(matrix == null)
 			return;
 		int N = matrix.length;
-		for(int i = 0; i < N/2; i++)
-			for(int j = i; j < N-i-1; j++) {
+		for(int i = 0; i < N/2; i++)					// This is the layer
+			for(int j = i; j < N-i-1; j++) {			// This is the offset to start
 				// swap
 				int t = matrix[i][j];
 				matrix[i][j] = matrix[N-j-1][i];
